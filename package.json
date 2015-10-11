@@ -1,0 +1,30 @@
+{
+  "name": "kefir-periodic-get",
+  "version": "1.0.4",
+  "description": "periodically poll a URL. get a kefir stream of responses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elsehow/kefir-periodic-get.git"
+  },
+  "keywords": [
+    "kefir",
+    "time",
+    "sync",
+    "timeserver"
+  ],
+  "author": "elsehow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsehow/kefir-periodic-get/issues"
+  },
+  "homepage": "https://github.com/elsehow/kefir-periodic-get#readme",
+  "dependencies": {
+    "is-browser": "^2.0.1",
+    "kefir": "^3.1.0",
+    "kefir-get": "^1.0.2"
+  }
+}
